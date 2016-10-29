@@ -1,0 +1,14 @@
+hash: 48c741b8e0b17c61e3274cc0a2cdcd52079d69dc95a44c2d3cc521f6e9f09d08
+updated: 2016-10-29T22:40:24.451469526+07:00
+imports:
+- name: github.com/ernesto-jimenez/gogen
+  version: 957c4ec2f9b517715281e61363e76421d7617f99
+  subpackages:
+  - imports
+- name: golang.org/x/tools
+  version: b814a3b030588c115189743d7da79bce8b549ce1
+  subpackages:
+  - go/ast/astutil
+  - go/buildutil
+  - go/loader
+testImports: []

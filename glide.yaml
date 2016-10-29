@@ -1,0 +1,8 @@
+package: github.com/nikolay-turpitko/x-go
+import:
+- package: github.com/ernesto-jimenez/gogen
+  subpackages:
+  - imports
+- package: golang.org/x/tools
+  subpackages:
+  - go/loader
