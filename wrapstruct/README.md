@@ -12,8 +12,31 @@ Otherwise, it is, probably, better to avoid use it.
 I created it mostly to experiment with go:generate and go/types package, and
 put it here just in case I ever need it or I ever want to create something similar.
 
-Useful links on the topic:
-https://github.com/golang/example/tree/master/gotypes#struct-types
-https://golang.org/pkg/go/types/
-https://godoc.org/golang.org/x/tools/go/loader#example-Config-Import
-https://github.com/ernesto-jimenez/gogen
+## Useful links on the topic:
+
+- https://github.com/golang/example/tree/master/gotypes#struct-types
+- https://golang.org/pkg/go/types/
+- https://godoc.org/golang.org/x/tools/go/loader#example-Config-Import
+- https://github.com/ernesto-jimenez/gogen
+
+## Sample usage
+
+```
+# install it
+
+go get github.com/nikolay-turpitko/x-go/wrapstruct/.../
+
+# see usage
+
+$GOPATH/bin/wrapstruct -h
+
+# try to generate sample code
+
+go generate github.com/nikolay-turpitko/x-go/wrapstruct/...
+
+# see original struct with comments and generated wrapper
+
+less $GOPATH/src/github.com/nikolay-turpitko/x-go/wrapstruct/sample/sample.go
+less $GOPATH/src/github.com/nikolay-turpitko/x-go/wrapstruct/sample/mystruct_generated.go
+
+```

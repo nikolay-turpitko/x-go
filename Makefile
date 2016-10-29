@@ -28,6 +28,6 @@ test:
 
 build:
 	@echo "Build"
-	@glide nv | xargs go build -o /dev/null
+	@glide nv | xargs go build
 	@echo "Build Done."
 	@echo "Note: this build only checks if it can be done, it does not preserve output files."
