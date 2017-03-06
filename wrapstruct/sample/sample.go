@@ -38,7 +38,7 @@ type myStruct struct {
 
 //go:generate wrapstruct -src myStruct -dst myStructWrapper -o mystruct_generated.go
 
-// Generated struct does not implement Zzzz(), we need to tweek it.
+// Generated struct does not implement Zzzz(), we need to tweak it.
 
 type myISampleImpl struct {
 	myStructWrapper
