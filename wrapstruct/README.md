@@ -14,10 +14,11 @@ put it here just in case I ever need it or I ever want to create something simil
 
 ## Useful links on the topic:
 
+- https://blog.gopheracademy.com/advent-2015/reducing-boilerplate-with-go-generate/
 - https://github.com/golang/example/tree/master/gotypes#struct-types
 - https://golang.org/pkg/go/types/
 - https://godoc.org/golang.org/x/tools/go/loader#example-Config-Import
-- https://github.com/ernesto-jimenez/gogen
+- https://github.com/ernesto-jimenez/gogen (some snippets I shamelessly borrowed there)
 
 ## Sample usage
 
