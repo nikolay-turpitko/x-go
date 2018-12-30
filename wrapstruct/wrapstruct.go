@@ -22,7 +22,7 @@ import (
 func main() {
 	prevUsage := flag.Usage
 	flag.Usage = func() {
-		fmt.Println(`
+		fmt.Print(`
 wrapstruct generates wrapper around provided struct
 to hide fields but to provide getters instead.
 It can be used in rare cases when you have a struct at hand,

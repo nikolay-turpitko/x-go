@@ -9,14 +9,14 @@
 
 all: \
 	clean \
-	test \
-	build
+	build \
+	test
 	@$(MAKE) clean --no-print-directory
 	@echo "All Done."
 
 clean:
 	@echo "Clean"
-	@glide nv | xargs go clean -i -r
+	@-glide nv | xargs go clean -i -r
 	@echo "Clean Done."
 
 test:
