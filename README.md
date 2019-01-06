@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nikolay-turpitko/x-go.svg?branch=master)](https://travis-ci.org/nikolay-turpitko/x-go)
+[![Build Status](https://travis-ci.com/nikolay-turpitko/x-go.svg?branch=master)](https://travis-ci.com/nikolay-turpitko/x-go)
 
 # x-go
 My Go experiments
